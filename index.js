@@ -25,7 +25,7 @@ function readLine() {
 function main() {
     const N = parseInt(readLine().trim(), 10);
 
-    var patt = /gmail.com/i
+    var patt = /@gmail.com/i
     var result = []
     for (let NItr = 0; NItr < N; NItr++) {
         const firstMultipleInput = readLine().replace(/\s+$/g, '').split(' ');
